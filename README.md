@@ -4,12 +4,11 @@
 </p>
 
 <!-- Title -->
-<h2 align="center">
-Neovim >0.5.0 Config with Lua Engine
-</h2>
+<h1 align="center">
+My Neovim >=0.5.0 Config with Lua Engine
+</h1>
 
-<!-- Structure -->
-## Structure
+## Main Structure
 My folder structure in `~/.config/nvim` (in *nix system) || `~/AppData/Local/nvim` (in Windows system)
 ```text
 📂lua
