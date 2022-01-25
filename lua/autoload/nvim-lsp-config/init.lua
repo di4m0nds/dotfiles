@@ -59,48 +59,15 @@ end
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
-local servers = { 'tsserver', 'html' }
+local servers = { 'tsserver', 'html', 'jsonls', 'eslint', 'emmet_ls' }
 
--- HTML SetUp
-require'lspconfig'.html.setup{
-  on_attach = on_attach,
-  flags = {
-    debounce_text_changes = 150,
-  },
-  capabilities = capabilities,
-  -- cmd = { "vscode-html-language-server", "--stdio" },
-  filetypes = { "html" },
-  init_options = {
-    configurationSection = { "html", "css", "javascript" },
-    embeddedLanguages = {
-      css = true,
-      javascript = true
-    },
-    provideFormatter = true
-  },
-  root_dir = function() return vim.loop.cwd() end,
-  -- root_dir = function(startpath)
-  --   return nvim_lsp.util.search_ancestors(startpath, matcher)
-  -- end,
-  single_file_support = true
-}
-
--- Tsserver settings && SetUp
-local ts_settings = function(client)
-  client.resolved_capabilities.document_formatting = false
-  ts_settings(client)
+-- Load setup for servers
+for _, lsp in ipairs(servers) do
+  nvim_lsp[lsp].setup {
+    on_attach = on_attach,
+    capabilities = capabilities,
+    flags = {
+      debounce_text_changes = 150,
+    }
+  }
 end
-require'lspconfig'.tsserver.setup{
-  on_attach = on_attach,
-  flags = {
-    debounce_text_changes = 150,
-  },
-  capabilities = capabilities,
-  -- cmd = { "typescript-language-server", "--stdio" },
-  filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
-  init_options = {
-    hostInfo = "neovim"
-  },
-  root_dir = nvim_lsp.util.root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git"),
-  ts_settings = ts_settings,
-}
