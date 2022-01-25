@@ -1,6 +1,5 @@
 -- Packer Package Management for Neovim
-
--- This file can be loaded by calling `lua require('plugins')` from your init.vim
+-- GitHub https://github.com/wbthomason/packer.nvim
 
 local cmd = vim.cmd
 cmd [[packadd packer.nvim]]
@@ -64,8 +63,12 @@ function init()
     end
   }
 
+  -- Finder
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
 end
-
 
 -- << Adding Packages >>
 return require('packer').startup(init)
