@@ -69,6 +69,9 @@ function init()
     'nvim-telescope/telescope.nvim',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+
+  -- Dashboard
+  use 'goolord/alpha-nvim'
 end
 
 -- << Adding Packages >>
