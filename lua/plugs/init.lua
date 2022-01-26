@@ -12,6 +12,7 @@ function init()
 
   -- Colorschemes
   use { 'rose-pine/neovim', as = 'rose-pine' }
+  use { 'morhetz/gruvbox', as = 'gruvbox' }
 
   -- Tree Explorer
   use 'kyazdani42/nvim-tree.lua'
