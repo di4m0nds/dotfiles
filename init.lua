@@ -15,6 +15,7 @@ require('plugs')
 -- Packages Configuration
 require('autoload.nvim-tree-config')
 require('autoload.indent-blankline-config')
+require('autoload.nvim-treesitter-config')
 require('autoload.nvim-lsp-config')
 require('autoload.nvim-cmp-config')
 require('autoload.nvim-lualine-config')
