@@ -20,6 +20,7 @@ require('autoload.nvim-lsp-config')
 require('autoload.nvim-cmp-config')
 require('autoload.nvim-lualine-config')
 require('autoload.nvim-telescope-config')
+require('autoload.nvim-alpha-config')
 
 -- Custom Theme
 require('theme')
