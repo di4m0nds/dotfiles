@@ -72,6 +72,9 @@ function init()
 
   -- Dashboard
   use 'goolord/alpha-nvim'
+
+  -- Prensence Discord
+  use 'andweeb/presence.nvim'
 end
 
 -- << Adding Packages >>
