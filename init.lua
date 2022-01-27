@@ -21,6 +21,7 @@ require('autoload.nvim-cmp-config')
 require('autoload.nvim-lualine-config')
 require('autoload.nvim-telescope-config')
 require('autoload.nvim-alpha-config')
+require('autoload.discord-presence-config')
 
 -- Custom Theme
 require('theme')
