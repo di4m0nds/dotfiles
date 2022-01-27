@@ -4,6 +4,10 @@
 My Neovim >=0.5.0 Config with Lua Engine
 </h2>
 
+<p align="center">
+<img src="preview/preview.png" alt="preview">
+</p>
+
 <!-- Plugins -->
 ## Plugins / Packages
 > [Tresitter](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/nvim-treesitter-config/init.lua)
@@ -57,7 +61,4 @@ My folder structure in `~/.config/nvim` (in *nix system) || `~/AppData/Local/nvi
 
 <!-- Preview -->
 ## Preview
-<p align="center">
-<img src="preview/preview.png" alt="preview">
-</p>
-
+![Quick Demo](preview/demo-v2.gif)
