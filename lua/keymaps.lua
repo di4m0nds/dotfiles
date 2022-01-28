@@ -36,3 +36,6 @@ map('n', '<leader>ff', ':Telescope find_files<CR>', default_opts)   -- find file
 map('n', '<leader>fg', ':Telescope live_grep<CR>', default_opts)    -- search engine inside files
 map('n', '<leader>fb', ':Telescope buffers<CR>', default_opts)      -- finder in buffer
 map('n', '<leader>fh', ':Telescope help_tags<CR>', default_opts)    -- find help
+
+-- Markdown Preview Nvim
+map('', '<C-m>p', ':MarkdownPreviewToggle<CR>', default_opts) -- open/close MarkdownPreview
