@@ -19,6 +19,10 @@ map('', '<leader>q', ':qa!<CR>', default_opts)
 map('', '<leader>s', ':w<CR>', default_opts)
 map('', '<leader>s', '<C-c>:w<CR>', default_opts)
 
+-- Split resize
+map('', '<leader>>', '10<C-w>>', default_opts)
+map('', '<leader><', '10<C-w><', default_opts)
+
 
 -- << Keymaps for plugins >> --------------------------------------------------
 
