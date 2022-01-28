@@ -1,5 +1,5 @@
 -- Plugin <Discord Presence Nvim> 
--- GitHub Repository https://github.com/nvim-treesitter/nvim-treesitter
+-- GitHub Repository https://github.com/andweeb/presence.nvim
 -- 
 -- << Discord Presence Configuration >>
 
