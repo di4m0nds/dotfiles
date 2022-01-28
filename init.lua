@@ -20,6 +20,7 @@ require('autoload.nvim-lsp-config')
 require('autoload.nvim-cmp-config')
 require('autoload.nvim-lualine-config')
 require('autoload.nvim-telescope-config')
+require('autoload.markdown-preview-config')
 require('autoload.nvim-alpha-config')
 require('autoload.discord-presence-config')
 
