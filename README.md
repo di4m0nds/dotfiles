@@ -26,6 +26,8 @@ My Neovim >=0.5.0 Config with Lua Engine
 
 > [Telescope](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/nvim-telescope-config/init.lua)
 
+> [Discord Presence](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/discord-presence-config/init.lua)
+
 <!-- Structure -->
 ## Main Structure
 My folder structure in `~/.config/nvim` (in *nix system) || `~/AppData/Local/nvim` (in Windows system)
