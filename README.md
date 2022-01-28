@@ -28,6 +28,8 @@ My Neovim >=0.5.0 Config with Lua Engine
 
 > [Discord Presence](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/discord-presence-config/init.lua)
 
+> [Mardown Preview](https://github.com/di4m0nds/nvim-lua/blob/master/lua/autoload/markdown-preview-config/init.lua)
+
 <!-- Structure -->
 ## Main Structure
 My folder structure in `~/.config/nvim` (in *nix system) || `~/AppData/Local/nvim` (in Windows system)
@@ -37,6 +39,8 @@ My folder structure in `~/.config/nvim` (in *nix system) || `~/AppData/Local/nvi
 │ │ 📂discord-presence-config
 │ │ └ 🌑init.lua
 │ │ 📂indent-blankline-config
+│ │ └ 🌑init.lua
+│ │ 📂markdown-preview-config
 │ │ └ 🌑init.lua
 │ │ 📂nvim-alpha-config
 │ │ └ 🌑init.lua
@@ -60,7 +64,3 @@ My folder structure in `~/.config/nvim` (in *nix system) || `~/AppData/Local/nvi
 └ 🌑packer_compiled.lua
 🌑init.lua
 ```
-
-<!-- Preview -->
-## Preview
-![Quick Demo](preview/demo-v2.gif)
