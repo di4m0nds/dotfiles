@@ -11,7 +11,6 @@ g.gruvbox_bold = 1
 g.gruvbox_italic = 1
 
 -- << Set theme >>
--- Themes open: rose-pine, gruvbox and material
 cmd[[colorscheme gruvbox]]
 
 -- Transparent Background (Theme)
