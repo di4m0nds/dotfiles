@@ -47,45 +47,10 @@ My Neovim >=0.5.0 Config with Lua Engine
 
 > [Mardown Preview](https://github.com/di4m0nds/nvim-lua/blob/master/lua/autoload/markdown-preview-config/init.lua)
 
-<!-- Structure -->
+<!-- LICENSE -->
 
 <h2 align="center">
-Main Structure
+LICENSE
 </h2>
 
-My folder structure in `~/.config/nvim` (in *nix system) || `~/AppData/Local/nvim` (in Windows system)
-```text
-📂lua
-│ 📂autoload
-│ │ 📂discord-presence-config
-│ │ └ 🌑init.lua
-│ │ 📂indent-blankline-config
-│ │ └ 🌑init.lua
-│ │ 📂markdown-preview-config
-│ │ └ 🌑init.lua
-│ │ 📂nvim-alpha-config
-│ │ └ 🌑init.lua
-│ │ 📂nvim-cmp-config
-│ │ └ 🌑init.lua
-│ │ 📂nvim-lsp-config
-│ │ └ 🌑init.lua
-│ │ 📂nvim-lualine-config
-│ │ └ 🌑init.lua
-│ │ 📂nvim-telescope-config
-│ │ └ 🌑init.lua
-│ │ 📂nvim-tree-config
-│ │ └ 🌑init.lua
-│ └ 📂nvim-treesitter-config
-│   └ 🌑init.lua
-│ 📂plugs
-│   └ 🌑init.lua
-│ 🌑keymaps.lua
-│ 🌑settings.lua
-└ 🌑theme.lua
-📂powershell
-│  di4am0nd.omp.json
-└  user_profile.ps1
-📂windows-terminal
-└  settings.json
-🌑init.lua
-```
+> [GPL-3.0 License](https://github.com/di4m0nds/dotfiles/blob/master/LICENSE)
