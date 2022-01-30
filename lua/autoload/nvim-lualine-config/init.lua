@@ -10,7 +10,7 @@ local custom_gruvbox = require'lualine.themes.gruvbox'
 custom_gruvbox.normal.a.bg  = "#104060"
 custom_gruvbox.normal.a.fg  = "#898989"
 custom_gruvbox.normal.b.bg  = "#102040"
-custom_gruvbox.normal.c.bg  = "#100010"
+custom_gruvbox.normal.c.bg  = "#100020"
 -- Insert Mode Green
 custom_gruvbox.insert.a.bg  = "#208050"
 custom_gruvbox.insert.a.fg  = "#ebdbb2"
