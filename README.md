@@ -1,4 +1,21 @@
 <!-- Preview -->
+
+<!-- Title -->
+<h2 align="center">
+My Windows Terminal and Oh-My-Posh Configuration
+</h2>
+
+<p align="center">
+<img src="preview/preview-windows-terminal.png" alt="preview">
+</p>
+
+## Links
+> [Windows Terminal](https://www.microsoft.com/store/productId/9MZ1SNWT0N5D)
+
+> [Oh-My-Posh](https://ohmyposh.dev/)
+
+> [I also used Scoop as Package Manager](https://scoop.sh/)
+
 <!-- Title -->
 <h2 align="center">
 My Neovim >=0.5.0 Config with Lua Engine
@@ -31,7 +48,11 @@ My Neovim >=0.5.0 Config with Lua Engine
 > [Mardown Preview](https://github.com/di4m0nds/nvim-lua/blob/master/lua/autoload/markdown-preview-config/init.lua)
 
 <!-- Structure -->
-## Main Structure
+
+<h2 align="center">
+Main Structure
+</h2>
+
 My folder structure in `~/.config/nvim` (in *nix system) || `~/AppData/Local/nvim` (in Windows system)
 ```text
 📂lua
@@ -57,10 +78,14 @@ My folder structure in `~/.config/nvim` (in *nix system) || `~/AppData/Local/nvi
 │ └ 📂nvim-treesitter-config
 │   └ 🌑init.lua
 │ 📂plugs
+│   └ 🌑init.lua
 │ 🌑keymaps.lua
 │ 🌑settings.lua
 └ 🌑theme.lua
-📂plugin
-└ 🌑packer_compiled.lua
+📂powershell
+│  di4am0nd.omp.json
+└  user_profile.ps1
+📂windows-terminal
+└  settings.json
 🌑init.lua
 ```
