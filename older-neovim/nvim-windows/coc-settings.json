@@ -1,0 +1,48 @@
+{
+  "suggest.noselect": false,
+
+  // Python Settings
+  "snippets.ultisnips.usePythonx": false,
+  "pyright.enable": true,
+  "python.jediEnabled": false,
+
+  // ESLint Settings
+  "eslint.autoFixOnSave": true,
+  "eslint.run": "onSave",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown"
+  ],
+
+  //Prettier Settings
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "none",
+  "prettier.arrowParens": "avoid",
+  "prettier.tabWidth": 2,
+  "prettier.bracketSpacing": true,
+  "prettier.onlyUseLocalVersion": false, // Omit the local version
+
+  // Coc Settings
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx",
+    "json",
+    "python"
+  ],
+
+  //Tabnine Settings
+  "tabnine.shortcut": "TbNn",
+  "tabnine.priority": 100,
+
+  // Rest Client Settings
+  "rest-client.showHeaders": false
+}
