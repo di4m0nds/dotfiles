@@ -12,9 +12,9 @@ local g = vim.g
 
 -- General options
 g.presence_auto_update         = 1 -- Update manually execute `:lua package.loaded.presence:update()`)
-g.presence_neovim_image_text   = "My Favorite Text Editor" -- Text displayed when hovered over the Neovim image
+g.presence_neovim_image_text   = "🎖️ My Favorite CodeEditor" -- Text displayed when hovered over the Neovim image
 g.presence_main_image          = "neovim" -- Main image display (either "neovim" or "file")
-g.presence_buttons             = 0 -- Disable button
+g.presence_buttons             = 0 -- Enable buttons -> buttons = { { label = "GitHub Profile", url = "https://github.com/di4m0nds" } }
 
 -- Rich Presence text options
 g.presence_editing_text        = "Editing %s" -- Format string rendered when an editable file is loaded in the buffer
