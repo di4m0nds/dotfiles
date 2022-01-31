@@ -83,6 +83,14 @@ function init()
 
   -- Prensence Discord
   use 'andweeb/presence.nvim'
+
+  -- Colorizer << GitHub https://github.com/norcalli/nvim-colorizer.lua >>
+  use {
+    'norcalli/nvim-colorizer.lua',
+    config = function()
+      require('colorizer').setup()
+    end
+  }
 end
 
 -- << Adding Packages >>
