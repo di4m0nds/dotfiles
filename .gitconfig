@@ -8,7 +8,9 @@
   interactive = auto
 
 [alias]
-  a = "!git status --short | peco | awk '{print $2}' | xargs git add"
+  a = add
+  d = diff
+  lg = "log --all --oneline -5 --decorate --graph"
   co = checkout
   ci = commit
   st = status
