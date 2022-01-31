@@ -16,7 +16,6 @@
           "invert_powerline": false,
           "foreground": "#FFBD00",
           "properties": {
-            "prefix": "Mr.",
             "template": "{{ .UserName }}'s"
           }
         },
@@ -26,7 +25,7 @@
           "invert_powerline": false,
           "foreground": "#108799",
           "properties": {
-            "prefix": "<#ffffff>in</> ",
+            "postfix": "/ ",
             "style": "folder"
           }
         },
