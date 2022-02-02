@@ -46,6 +46,7 @@ function init()
       'hrsh7th/cmp-path',
       'hrsh7th/cmp-buffer',
       'saadparwaiz1/cmp_luasnip',
+      {'tzachar/cmp-tabnine', run='./install.ps1'}
     },
   }
 
