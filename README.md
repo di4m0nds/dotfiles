@@ -6,7 +6,7 @@ My Windows Terminal and Oh-My-Posh Configuration
 </h2>
 
 <p align="center">
-<img src="preview/preview-windows-terminal.png" alt="preview">
+<img src="preview/preview-windows-terminal.png" alt="windows-terminal">
 </p>
 
 ## Links
@@ -21,8 +21,14 @@ My Windows Terminal and Oh-My-Posh Configuration
 My Neovim >=0.5.0 Config with Lua Engine
 </h2>
 
+#### Neovim Preview
 <p align="center">
 <img src="preview/preview.png" alt="preview">
+</p>
+
+#### Neovim Dashboard Preview
+<p align="center">
+<img src="preview/dashboard.png" alt="dashboard">
 </p>
 
 <!-- Plugins -->
