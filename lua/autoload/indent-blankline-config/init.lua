@@ -3,14 +3,17 @@
 -- 
 -- << Indent Line Configuration >>
 
-vim.opt.list = true
-vim.opt.listchars:append("eol:↴")
+local opt = vim.opt
+local g = vim.g
 
--- vim.opt.listchars:append("space:⋅")
+opt.list = true
+opt.listchars:append("eol:↴")
+
+g.indent_blankline_disable_with_nolist = true
 
 require("indent_blankline").setup {
   show_current_context = true,
-  show_current_context_start = true,
+  show_current_context_start = false,
   show_end_of_line = true,
   space_char_blankline = " ",
 }
