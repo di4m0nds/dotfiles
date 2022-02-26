@@ -4,7 +4,7 @@
 -- << Nvim Treesitter Configuration >>
 
 require('nvim-treesitter.configs').setup {
-  ensure_installed = { "javascript", "lua", "markdown" },
+  ensure_installed = { "javascript", "python", "lua", "markdown", "http", "json" },
   additional_vim_regex_highlighting = false,
   highlight = {
     enable = true,
