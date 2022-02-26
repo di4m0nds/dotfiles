@@ -11,7 +11,7 @@ g.gruvbox_bold = 1
 g.gruvbox_italic = 1
 
 -- << Set theme >>
-cmd[[colorscheme gruvbox]]
+cmd[[colorscheme tokyonight]]
 
 -- Transparent Background (Theme)
 cmd[[hi Normal guibg=NONE ctermbg=NONE]]
