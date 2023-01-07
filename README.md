@@ -32,26 +32,26 @@ My Neovim >=0.5.0 Config with Lua Engine
 </p>
 
 <!-- Plugins -->
-## Plugins / Packages
-> [Tresitter](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/nvim-treesitter-config/init.lua)
+## Plugins / Packages Neovim (Lua)
+> [Tresitter](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/nvim-treesitter-config/init.lua)
 
-> [LSP (Language Server Protocol)](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/nvim-lsp-config/init.lua)
+> [LSP (Language Server Protocol)](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/nvim-lsp-config/init.lua)
 
-> [Nvim Tree](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/nvim-tree-config/init.lua)
+> [Nvim Tree](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/nvim-tree-config/init.lua)
 
-> [Lualine Status Bar](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/nvim-lualine-config/init.lua)
+> [Lualine Status Bar](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/nvim-lualine-config/init.lua)
 
-> [CMP Autocomplete](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/nvim-cmp-config/init.lua)
+> [CMP Autocomplete](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/nvim-cmp-config/init.lua)
 
-> [Alpha Dashboard](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/nvim-alpha-config/init.lua)
+> [Alpha Dashboard](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/nvim-alpha-config/init.lua)
 
-> [Indent Blankline](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/indent-blankline-config/init.lua)
+> [Indent Blankline](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/indent-blankline-config/init.lua)
 
-> [Telescope](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/nvim-telescope-config/init.lua)
+> [Telescope](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/nvim-telescope-config/init.lua)
 
-> [Discord Presence](https://github.com/di4m0nds/nvim-lua/tree/master/lua/autoload/discord-presence-config/init.lua)
+> [Discord Presence](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/discord-presence-config/init.lua)
 
-> [Mardown Preview](https://github.com/di4m0nds/nvim-lua/blob/master/lua/autoload/markdown-preview-config/init.lua)
+> [Mardown Preview](https://github.com/di4m0nds/dotfiles/blob/master/_neovim-config-lua/lua/autoload/markdown-preview-config/init.lua)
 
 <!-- LICENSE -->
 
