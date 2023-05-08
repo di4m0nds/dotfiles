@@ -3,7 +3,7 @@
 | :exclamation:  Announcement   |
 | :---------------------------------------|
 |A new repository has been created with a fresh configuration of Neovim that leverages Lua scripting.|
-|The new configuration includes custom mappings, plugins, and color schemes designed to enhance the Neovim experience. The Lua scripting language provides a powerful and flexible platform for customizing the editor, making it more efficient and effective for the workflow.|
+|The new configuration includes custom mappings, plugins, and and a new file architecture to enhance the Neovim experience. The Lua scripting language provides a powerful and flexible platform for customizing the editor, making it more efficient and effective for the workflow.|
 |You can access the new repository by visiting the following link: [di4m0nds/nvim.lua](https://github.com/di4m0nds/nvim.lua)|
 
 
