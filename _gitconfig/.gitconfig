@@ -3,17 +3,20 @@
 
 [color]
 	ui = true
-  status = auto
-  branch = auto
-  interactive = auto
+  	status = auto
+  	branch = auto
+  	interactive = auto
 
 [alias]
-  a = add
-  d = diff
-  lg = "log --all --oneline -5 --decorate --graph"
-  co = checkout
-  ci = commit
-  st = status
-  br = branch
-  ps = "!git push origin $(git rev-parse --abbrev-ref HEAD)"
-  pl = "!git pull origin $(git rev-parse --abbrev-ref HEAD)"
+	a = add
+	d = diff
+  	lg = "log --all --oneline -5 --decorate --graph"
+  	co = checkout
+  	ci = commit
+  	st = status
+  	br = branch
+  	ps = "!git push origin $(git rev-parse --abbrev-ref HEAD)"
+  	pl = "!git pull origin $(git rev-parse --abbrev-ref HEAD)"
+
+[core]
+	editor = nvim
