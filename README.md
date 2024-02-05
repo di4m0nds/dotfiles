@@ -3,8 +3,7 @@
 | :exclamation:  Announcement   |
 | :---------------------------------------|
 |Hey, got another Neovim flavor for you — new mappings, slick plugins, and a vibe that’s just different. Wanna give it a spin?
-|Check it out: di4m0nds/nvim.lua
-|
+|Check it out: [di4m0nds/nvim.lua](https://github.com/di4m0nds/nvim.lua)
 
 <!-- Title -->
 <h2 align="center">
